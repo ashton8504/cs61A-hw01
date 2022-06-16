@@ -74,8 +74,6 @@
 
 # print(largest_factor(15))
 
-# Online solution I found
-
 
 # def largest_factor(n):  # call expression
 #     """Return the largest factor of n that is smaller than n.
@@ -182,37 +180,6 @@
 
 # print(hailstone(10))
 
-# FIRST WRONG SOLUTION
-
-
-# from operator import add, mul
-# def hailstone(x):
-#     """Print the hailstone sequence starting at x and return its
-#     length.
-#     >>> a = hailstone(10)
-#     10
-#     5
-#     16
-#     8
-#     4
-#     2
-#     1
-#     >>> a
-#     7
-#     """
-#     count = 1
-#     print(x)
-#     while x > 1:
-#         if x / 2:
-#             x = x // 2
-#         else:
-#             x = add(mul(x, 3), 1)
-#         print(x)
-#         count += 1
-#     return count
-
-
-# print(hailstone(10))
 
 # Showed solution to friend and stated to use infixed operators to clean code
 # def hailstone(x):
